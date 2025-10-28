@@ -1,0 +1,100 @@
+{
+  "packages": [
+    {
+      "name": "CH32_Arduino",
+      "websiteURL": "https://github.com/jobitjoseph/CH32_Arduino_Core",
+      "maintainer": "Jobit Joseph",
+      "email": "jobitjoseph1@gmail.com",
+      "help": {
+        "online": "https://github.com/jobitjoseph/CH32_Arduino_Core"
+      },
+      "platforms": [
+        {
+          "name": "CH32 MCU Boards",
+          "architecture": "ch32v",
+          "version": "1.0.5",
+          "category": "Contributed",
+          "url": "https://github.com/jobitjoseph/CH32_Arduino_Core/archive/refs/tags/1.0.5.zip",
+          "archiveFileName": "CH32_Arduino_Core-1.0.5.zip",
+          "checksum": "SHA-256:66f26ce2f7a9508d1a88a27c10fceb4c37f3057bb9608a0403fb2d514ef063c2",
+          "size": "1451320",
+          "boards": [
+            {"name": "CH32X035 Board"},
+            {"name": "CH32V30x Board"},
+            {"name": "CH32V20x Board"},
+            {"name": "CH32V10x Board"},
+            {"name": "CH32V00x Board"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "CH32_Arduino",
+              "name": "riscv-none-embed-gcc",
+              "version": "8.2.0"
+            },
+            {
+              "packager": "CH32_Arduino",
+              "name": "openocd",
+              "version": "1.0.0"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "riscv-none-embed-gcc",
+          "version": "8.2.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://codeload.github.com/openwch/risc-none-embed-gcc/zip/refs/tags/8.2.0",
+              "archiveFileName": "risc-none-embed-gcc-8.2.0.zip",
+              "checksum": "SHA-256:43DF880A1908C873A8B6AB115568C6BEAEEC41DDADEB5202703B6AA9FDE50626",
+              "size": "267710516"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://codeload.github.com/TianpeiLee/wch_gcc_8_linux/tar.gz/refs/tags/8.2.0",
+              "archiveFileName": "wch_gcc_8_linux-8.2.0.tar.gz",
+              "checksum": "SHA-256:967FB021E5689FF79A06A71C7E54FB7FACE418D5E9B27EC64F5E56687557A282",
+              "size": "245443061"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://codeload.github.com/TianpeiLee/wch_gcc_macos/tar.gz/refs/tags/8.2.0",
+              "archiveFileName": "wch_gcc_macos-8.2.0.tar.gz",
+              "checksum": "SHA-256:E14538AE7B621DE798C2466B338A4174CCE22C9CF12E5C1684C0995931738260",
+              "size": "160591401"
+            }
+          ]
+        },
+        {
+          "name": "openocd",
+          "version": "1.0.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://codeload.github.com/openwch/openocd_wch/zip/refs/tags/1.0.0",
+              "archiveFileName": "openocd_wch-1.0.0.zip",
+              "checksum": "SHA-256:F1E54FD7F253CF37E7F4581088FF62DFDFDAB899B9D3182C36426F6146AE0465",
+              "size": "9604774"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://codeload.github.com/TianpeiLee/wch_openocd_linux/tar.gz/refs/tags/1.0.0",
+              "archiveFileName": "wch_openocd_linux-1.0.0.tar.gz",
+              "checksum": "SHA-256:10FA9CF5006C3495AEDCAFD1C3903FA8D75D513536432E1D61B59124442EB4C3",
+              "size": "2097609"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://codeload.github.com/TianpeiLee/wch_openocd_macos/tar.gz/refs/tags/1.0.0",
+              "archiveFileName": "wch_openocd_macos-1.0.0.tar.gz",
+              "checksum": "SHA-256:100DC6A75E302D5E3FF7548FE64351AA545353982BA22C19D43555F3A748BE0E",
+              "size": "1995618"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
