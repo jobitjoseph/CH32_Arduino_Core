@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://github.com/jobitjoseph/CH32_Arduino_Core/archive/refs/tags/1.0.6.zip",
           "archiveFileName": "CH32_Arduino_Core-1.0.6.zip",
-          "checksum": "",
-          "size": "",
+          "checksum": "7d8ccfe9d549fbf6baaef7c8b9521d82fe2b53a010214122fd4b63bc5f47af0a",
+          "size": "1374387",
           "boards": [
             {
               "name": "CH32X035 Board"
