@@ -4,8 +4,8 @@
 # For more info at:
 # https://arduino.github.io/arduino-cli/latest/platform-specification/
 
-name=CH32V EVT Boards Support
-version=1.0.0
+name=CH32 EVT Boards Support
+version=1.0.6
 
 # Compile variables
 # ----------------------
