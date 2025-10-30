@@ -12,10 +12,10 @@
         {
           "name": "CH32 MCU Boards",
           "architecture": "ch32v",
-          "version": "1.0.6",
+          "version": "1.0.5",
           "category": "Contributed",
-          "url": "https://github.com/jobitjoseph/CH32_Arduino_Core/archive/refs/tags/1.0.6.zip",
-          "archiveFileName": "CH32_Arduino_Core-1.0.6.zip",
+          "url": "https://github.com/jobitjoseph/CH32_Arduino_Core/archive/refs/tags/1.0.5.zip",
+          "archiveFileName": "CH32_Arduino_Core-1.0.5.zip",
           "checksum": "SHA-256:ed2ee2cf765f2c44d19b52eb6de913aa385cc016bab3d66e501548a8dc45f612",
           "size": "1373329",
           "boards": [
