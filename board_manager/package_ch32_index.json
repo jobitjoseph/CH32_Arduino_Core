@@ -12,7 +12,7 @@
         {
           "name": "CH32 MCU Boards",
           "architecture": "ch32v",
-          "version": "1.0.5",
+          "version": "1.0.6",
           "category": "Contributed",
           "url": "https://github.com/jobitjoseph/CH32_Arduino_Core/archive/refs/tags/1.0.5.zip",
           "archiveFileName": "CH32_Arduino_Core-1.0.5.zip",
