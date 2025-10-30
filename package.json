@@ -2,6 +2,6 @@
     "description": "Core library for CH32duino",
     "name": "framework-arduino-openwch-ch32",
     "system": "all",
-    "url": "https://github.com/openwch/arduino_core_ch32",
-    "version": "0.0.0"
+    "url": "https://github.com/jobitjoseph/CH32_Arduino_Core",
+    "version": "1.0.6"
 }
